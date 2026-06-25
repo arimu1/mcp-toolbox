@@ -53,7 +53,6 @@ func ProcessMethod(ctx context.Context, mcpVersion string, id jsonrpc.RequestId,
 		return jsonrpc.NewError(id, jsonrpc.INTERNAL_ERROR, err.Error(), nil), err
 	}
 	switch mcpVersion {
-<<<<<<< HEAD
 	case mcputil.VERSION_DRAFT:
 		if enableDraft {
 			return vdraft.ProcessMethod(ctx, id, method, g, primitiveMgr, body, header)
