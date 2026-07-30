@@ -1,5 +1,18 @@
 # Changelog
 
+## [1.9.0](https://github.com/googleapis/mcp-toolbox/compare/v1.8.0...v1.9.0) (2026-07-30)
+
+
+### Features
+
+* Improve error messaging on missing envrionment variables ([#3718](https://github.com/googleapis/mcp-toolbox/issues/3718)) ([11ae3b5](https://github.com/googleapis/mcp-toolbox/commit/11ae3b5254dfc5bdda1f71d330cbc7d813119111))
+* **source/bigquery:** Add apiEndpoint field to override BigQuery API host ([#3437](https://github.com/googleapis/mcp-toolbox/issues/3437)) ([4da1600](https://github.com/googleapis/mcp-toolbox/commit/4da1600df9971789a0970d174be3c2ed1368f7c1))
+
+
+### Bug Fixes
+
+* **tools/bigquery:** Keep the provider error classification in bigquery-execute-sql ([#3738](https://github.com/googleapis/mcp-toolbox/issues/3738)) ([42570b8](https://github.com/googleapis/mcp-toolbox/commit/42570b833656fdf71cf36ba3333a2419f48730d2))
+
 ## [1.8.0](https://github.com/googleapis/mcp-toolbox/compare/v1.7.0...v1.8.0) (2026-07-28)
 
 
